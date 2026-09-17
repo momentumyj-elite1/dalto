@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-17",
+  "site": "dalto",
+  "items": [
+    {
+      "title": "'강남달리는토끼' 검색어 강화",
+      "target_file": null,
+      "why": "11~20위 — 조금만 개선하면 1페이지(10위 이내) 진입 가능",
+      "evidence": "순위 14.5, 노출 2",
+      "impressions": 2,
+      "clicks": 0,
+      "position": 14.5,
+      "check": {
+        "method": "manual"
+      },
+      "how_to_check": "자동 판별 불가 — 수동 확인"
+    },
+    {
+      "title": "location.html 노출 급감 원인 점검",
+      "target_file": "location.html",
+      "why": "노출이 크게 줄면 색인·콘텐츠·경쟁 변화 신호",
+      "evidence": "노출 2 → 1 (-50%)",
+      "impressions": 1,
+      "clicks": 0,
+      "position": 1.0,
+      "check": {
+        "method": "title_changed",
+        "baseline": "오시는 길 | 강남 달토 하이퍼블릭"
+      },
+      "how_to_check": "대상 파일의 <title> 이 이전과 달라졌으면 완료"
+    }
+  ]
+}
